@@ -40,7 +40,7 @@ public class AnimalShelter {
         return cat;
     }
 
-    private class Animal {
+    private abstract class Animal {
     }
 
     private class Dog extends Animal {
